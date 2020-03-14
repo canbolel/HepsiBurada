@@ -1,0 +1,312 @@
+[
+  {
+    "key": "Search_Area",
+    "value": "productSearch",
+    "type": "id"
+  },
+  {
+    "key": "btn_Nereden",
+    "value": "input.select2-search__field",
+    "type": "id"
+  },
+  {
+    "key": "tb_Nereden",
+    "value": "input.select2-search__field",
+    "type": "css"
+  },
+  {
+    "key": "Kategori",
+    "value": "ul[class='navbar-links']>li>ul>li>a",
+    "type": "css"
+  },
+  {
+    "key": "loginHover",
+    "value": "myAccount",
+    "type": "id"
+  },
+  {
+    "key": "logInHoverButton",
+    "value": "login",
+    "type": "id"
+  },
+  {
+    "key": "eMailArea",
+    "value": "email",
+    "type": "id"
+  },
+  {
+    "key": "passwordArea",
+    "value": "password",
+    "type": "id"
+  },
+  {
+    "key": "logInButton",
+    "value": "#form-login > div.form-actions > button",
+    "type": "css"
+  },
+  {
+    "key": "loggedInCheck",
+    "value": "#myAccount > a:nth-child(1)",
+    "type": "css"
+  },
+  {
+    "key": "cartCount",
+    "value": "#cartItemCount > label",
+    "type": "css"
+  },
+  {
+    "key": "topCategory",
+    "value": "//*[@class='menu browser-by-category']/li[@id]",
+    "type": "xpath"
+  },
+  {
+    "key": "subCategory",
+    "value": "a[class=\"menu-item\"]",
+    "type": "css"
+  },
+  {
+    "key": "brandBracket",
+    "value": "ol[class=\"show-all-brands scrollable-filter-container scroll-lock\"] > li",
+    "type": "css"
+  },
+  {
+    "key": "priceMin",
+    "value": "li.box-container.fiyat > div > div > div:nth-child(1) > input",
+    "type": "css"
+  },
+  {
+    "key": "priceMax",
+    "value": "li.box-container.fiyat > div > div > div:nth-child(3) > input",
+    "type": "css"
+  },
+  {
+    "key": "priceEntry",
+    "value": "li.box-container.fiyat > div > div > div.range-contain-row.right > button",
+    "type": "css"
+  },
+  {
+    "key": "productList",
+    "value": "ul > li > div > a",
+    "type": "css"
+  },
+  {
+    "key": "productPriceInProductList",
+    "value": "span[class='price product-price'],div[class='price-value']",
+    "type": "css"
+  },
+  {
+    "key": "productDiscounted",
+    "value": "div.extra-discount-price > span",
+    "type": "css"
+  },
+  {
+    "key": "productPrice",
+    "value": "div.extra-discount-price > span",
+    "type": "css"
+  },
+  {
+  "key": "priceInProductDetail",
+  "value": "//div[@class=\"extra-discount-price\"]/span | //span[@class=\"price merchant\"]",
+  "type": "xpath"
+  },
+  {
+    "key": "productName",
+    "value": "product-name",
+    "type": "id"
+  },
+  {
+    "key": "productPriceDiv",
+    "value": "div.price-wrapper",
+    "type": "css"
+  },
+  {
+    "key": "addToCart",
+    "value": "addToCart",
+    "type": "id"
+  },
+  {
+    "key": "productCount",
+    "value": "quantity",
+    "type": "id"
+  },
+  {
+    "key": "cartButton",
+    "value": "shoppingCart",
+    "type": "id"
+  },
+  {
+    "key": "cartIncrease",
+    "value": "button.increase",
+    "type": "css"
+  },
+  {
+    "key": "priceCheck",
+    "value": "div.product-prices-utils > div.price",
+    "type": "css"
+  },
+  {
+    "key": "cartDelete",
+    "value": "div.utils > a.btn-delete",
+    "type": "css"
+  },
+  {
+    "key": "totalPrice",
+    "value": "div.total-amount > div",
+    "type": "css"
+  },
+  {
+    "key": "totalPrice",
+    "value": "div:nth-child(1) > div > strong",
+    "type": "css"
+  },
+  {
+    "key": "shippingPrice",
+    "value": "#item-prices > div > div:nth-child(1) > div > strong",
+    "type": "css"
+  },
+  {
+    "key": "completeShopping",
+    "value": "div.cart-proceed-container > button",
+    "type": "css"
+  },
+  {
+    "key": "nameButton",
+    "value": "first-name",
+    "type": "id"
+  },
+  {
+    "key": "surnameButton",
+    "value": "last-name",
+    "type": "id"
+  },
+  {
+    "key": "countryDroplist",
+    "value": "div.btn-group.bootstrap-select.required.open > button",
+    "type": "css"
+  },
+  {
+    "key": "btnCountry",
+    "value": "select[id='country'] + div button",
+    "type": "css"
+  },
+  {
+    "key": "cmbSelectCountry",
+    "value": "//select[@id='country']/following-sibling::div//div[@class='dropdown-menu open']//ul/li/a[./span[text()='Türkiye']]",
+    "type": "xpath"
+  },
+  {
+    "key": "btnCity",
+    "value": "select[id='city'] + div button",
+    "type": "css"
+  },
+  {
+    "key": "cmbSelectCity",
+    "value": "//select[@id='city']/following-sibling::div//div[@class='dropdown-menu open']//ul/li/a[./span[text()='Giresun']]",
+    "type": "xpath"
+  },
+  {
+    "key": "btnTown",
+    "value": "select[id='town'] + div button",
+    "type": "css"
+  },
+  {
+    "key": "cmbSelectTown",
+    "value": "//select[@id='town']/following-sibling::div//div[@class='dropdown-menu open']//ul/li/a[./span[text()='MERKEZ']]",
+    "type": "xpath"
+  },
+  {
+    "key": "btnDistrict",
+    "value": "select[id='district'] + div button",
+    "type": "css"
+  },
+  {
+    "key": "cmbSelectDistrict",
+    "value": "//select[@id='district']/following-sibling::div//div[@class='dropdown-menu open']//ul/li/a[./span[text()='MERKEZ']]",
+    "type": "xpath"
+  },
+  {
+    "key": "txtAddress",
+    "value": "//*[@class='controls animateTextarea']/textarea",
+    "type": "xpath"
+  },
+  {
+    "key": "txtAddressName",
+    "value": "//*[@id='address-name']",
+    "type": "xpath"
+  },
+  {
+    "key": "txtPhoneNumber",
+    "value": "//*[@id='phone']",
+    "type": "xpath"
+  },
+  {
+    "key": "continueButton",
+    "value": "#short-summary > div:nth-child(1) > div.proceed-container > button",
+    "type": "css"
+  },
+  {
+    "key": "creditCartButton",
+    "value": "#payment-container > div.payment-container > div > div > div:nth-child(1)",
+    "type": "css"
+  },
+  {
+    "key": "cardNo",
+    "value": "card-no",
+    "type": "id"
+  },
+  {
+    "key": "holderName",
+    "value": "holder-Name",
+    "type": "id"
+  },
+  {
+    "key": "btnMonth",
+    "value": "//*[@id=\"payment-type-1\"]/div/form/fieldset/div[3]/div/div[1]/div/button",
+    "type": "xpath"
+  },
+  {
+    "key": "cmbSelectMonth",
+    "value": "//*[@id=\"payment-type-1\"]/div/form/fieldset/div[3]/div/div[1]/div/div/ul/li/a/span[contains(text(), '01')]",
+    "type": "xpath"
+  },
+  {
+    "key": "btnYear",
+    "value": "//*[@id=\"payment-type-1\"]/div/form/fieldset/div[3]/div/div[2]/div/button",
+    "type": "xpath"
+  },
+  {
+    "key": "cmbSelectYear",
+    "value": "//*[@id=\"payment-type-1\"]/div/form/fieldset/div[3]/div/div[2]/div/div/ul/li/a/span[contains(text(), '2023')]",
+    "type": "xpath"
+  },
+  {
+    "key": "cvc",
+    "value": "cvc",
+    "type": "id"
+  },
+  {
+    "key": "deleteAddress",
+    "value": "#customer-addresses > div > div > div > ul > li:nth-child(2) > div > div.action-buttons > a.btn-delete.btn-text",
+    "type": "css"
+  },
+  {
+    "key": "deleteConfirmation",
+    "value": "#customer-addresses > div > div > div > ul > li:nth-child(2) > div > div.delete-overlay.open > div > a.btn.btn-md",
+    "type": "css"
+  },
+  {
+    "key": "addressChange",
+    "value": "#customer-addresses > div > ul > li:nth-child(2) > a",
+    "type": "css"
+  },
+  {
+    "key": "deleteBilling",
+    "value": "#customer-addresses > div > div > div > ul > li:nth-child(2) > div > div.action-buttons > a.btn-delete.btn-text",
+    "type": "css"
+  },
+  {
+    "key": "deleteBillingConfirmation",
+    "value": "#customer-addresses > div > div > div > ul > li:nth-child(2) > div > div.delete-overlay.open > div > a.btn.btn-md",
+    "type": "css"
+  }
+]
